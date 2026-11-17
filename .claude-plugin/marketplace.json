@@ -1,0 +1,24 @@
+{
+  "name": "creator-skills",
+  "owner": { "name": "像素李 (shisaq)", "url": "https://github.com/shisaq" },
+  "metadata": {
+    "description": "给内容创作者的 Claude Code 技能：会议切片、字幕、短视频写作。"
+  },
+  "plugins": [
+    {
+      "name": "meeting-clipper",
+      "source": "./plugins/meeting-clipper",
+      "description": "会议/直播录像切片：本地转写 → 选片打分 → 精确切片 → 每条字幕 + 交接文档。"
+    },
+    {
+      "name": "subtitle-toolkit",
+      "source": "./plugins/subtitle-toolkit",
+      "description": "字幕工具箱：本地转写、润色纠错（时间轴不动）、翻译与双语字幕（含 Arctime 工程注入）。"
+    },
+    {
+      "name": "short-video-writer",
+      "source": "./plugins/short-video-writer",
+      "description": "短视频写手：钩子、完播率、情绪、反差导向的口播稿和多平台发布文案。"
+    }
+  ]
+}

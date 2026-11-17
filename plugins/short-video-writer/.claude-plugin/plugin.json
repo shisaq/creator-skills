@@ -1,0 +1,7 @@
+{
+  "name": "short-video-writer",
+  "version": "0.1.0",
+  "description": "短视频写手：围绕前 3 秒钩子、完播率、情绪与反差写口播稿，写视频号/抖音/小红书/B 站/YouTube 发布文案，自动避开 AI 句式。",
+  "keywords": ["short-video", "script", "copywriting", "douyin", "xiaohongshu", "bilibili", "youtube"],
+  "author": { "name": "像素李 (shisaq)", "url": "https://github.com/shisaq" }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "subtitle-toolkit",
+  "version": "0.1.0",
+  "description": "视频字幕工具箱：本地转写、润色纠错（时间轴不动）、翻译与双语字幕（含 Arctime 工程注入）。macOS / Windows 通用。",
+  "keywords": ["subtitle", "srt", "ass", "transcription", "translation", "arctime"],
+  "author": { "name": "像素李 (shisaq)", "url": "https://github.com/shisaq" }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "meeting-clipper",
+  "version": "0.1.0",
+  "description": "把会议/直播录像本地转写、挑出精彩片段、精确切片，并生成每条字幕和交接文档。macOS / Windows 通用。",
+  "keywords": [
+    "video",
+    "meeting",
+    "clips",
+    "transcription",
+    "ffmpeg"
+  ],
+  "author": {
+    "name": "像素李 (shisaq)",
+    "url": "https://github.com/shisaq"
+  }
+}
