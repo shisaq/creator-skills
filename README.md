@@ -1,12 +1,15 @@
 # creator-skills
 
-给内容创作者用的 Claude Code 技能合集。macOS 和 Windows 通用，不需要预装 Python、ffmpeg 或转写软件；视频和音频都在本地处理，不会上传。
+给内容创作者用的 Claude Code 技能合集（Codex 也能用）。macOS 和 Windows 通用，不需要预装 Python、ffmpeg 或转写软件；视频和音频都在本地处理，不会上传。
+
+（selfmedia-video 另外需要 Node.js 和 ffmpeg 来渲染；只有你主动配置了自建 FunASR 服务时，音频才会发到那台服务器。）
 
 | 插件 | 做什么 |
 |---|---|
 | [meeting-clipper](plugins/meeting-clipper) | 把会议、直播、分享的长录像切成能单独发布的片段：本地转写 → 挑金句/观点/案例/干货并打分 → 确认后精确切片，每条附对齐字幕和一份交接文档 |
 | [subtitle-toolkit](plugins/subtitle-toolkit) | 字幕工具箱：从视频出字幕、润色识别错误（时间轴一帧不动）、翻译成英文等语言、生成双语字幕或直接写进 Arctime 工程 |
 | [short-video-writer](plugins/short-video-writer) | 短视频写手：围绕前 3 秒钩子、完播率、情绪和反差写口播稿；写视频号、抖音、小红书、B 站、YouTube 的发布文案；避开一眼 AI 的句式 |
+| [selfmedia-video](plugins/selfmedia-video) | 口播自媒体视频：把手机自拍口播做成可发布的竖屏短视频——删句方案 → FCPXML 粗剪 → HyperFrames 包装（人脸跟随画中画、真实信源中文重做、字幕避开嘴巴、BGM）→ 发布文案与 3:4 封面 |
 
 ## 安装
 
@@ -24,6 +27,7 @@
 /plugin install meeting-clipper@creator-skills
 /plugin install subtitle-toolkit@creator-skills
 /plugin install short-video-writer@creator-skills
+/plugin install selfmedia-video@creator-skills
 ```
 
 以后更新：`/plugin marketplace update creator-skills`
@@ -39,6 +43,7 @@
 - 「`字幕.srt` 里好多错字，帮我改一下」
 - 「帮我写一条讲 AI 省钱技巧的口播稿，60 秒」
 - 「这条视频要发抖音和小红书了，配个文案」
+- 「把 `口播0312.mov` 做成一条自媒体视频，先给我删句方案」
 
 ## 一些设计
 

@@ -1,0 +1,18 @@
+{
+  "name": "selfmedia-video",
+  "version": "0.1.0",
+  "description": "口播自媒体视频生产线：原片 → 删句方案 → 链接原素材的 FCPXML 粗剪 → HyperFrames 包装（人脸跟随画中画、真实信源按原样式翻成中文、字幕避开嘴巴、BGM 与音效）→ 发布文案与 3:4 封面。macOS / Windows。",
+  "keywords": [
+    "talking-head",
+    "vlog",
+    "fcpxml",
+    "hyperframes",
+    "subtitle",
+    "short-video",
+    "funasr"
+  ],
+  "author": {
+    "name": "像素李 (shisaq)",
+    "url": "https://github.com/shisaq"
+  }
+}

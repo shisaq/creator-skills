@@ -1,8 +1,11 @@
 {
   "name": "creator-skills",
-  "owner": { "name": "像素李 (shisaq)", "url": "https://github.com/shisaq" },
+  "owner": {
+    "name": "像素李 (shisaq)",
+    "url": "https://github.com/shisaq"
+  },
   "metadata": {
-    "description": "给内容创作者的 Claude Code 技能：会议切片、字幕、短视频写作。"
+    "description": "给内容创作者的 Claude Code 技能：会议切片、字幕、短视频写作、口播视频包装。"
   },
   "plugins": [
     {
@@ -19,6 +22,11 @@
       "name": "short-video-writer",
       "source": "./plugins/short-video-writer",
       "description": "短视频写手：钩子、完播率、情绪、反差导向的口播稿和多平台发布文案。"
+    },
+    {
+      "name": "selfmedia-video",
+      "source": "./plugins/selfmedia-video",
+      "description": "口播自媒体视频：逐字转写 → 删句方案 → FCPXML 粗剪 → HyperFrames 包装（人脸跟随画中画、真实信源中文重做、字幕避嘴、BGM）→ 发布文案与 3:4 封面。"
     }
   ]
 }
