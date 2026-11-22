@@ -1,0 +1,7 @@
+{
+  "name": "mv-accents",
+  "version": "0.1.0",
+  "description": "演奏视频的音乐特效：节拍分析 + AI 按段落设计的边框律动、闪光粒子、飘音符、歌名卡，也可以写全新效果。macOS / Windows 通用。",
+  "keywords": ["video", "music", "beat", "piano", "performance", "motion"],
+  "author": { "name": "像素李 (shisaq)", "url": "https://github.com/shisaq" }
+}

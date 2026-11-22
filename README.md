@@ -10,6 +10,8 @@
 | [subtitle-toolkit](plugins/subtitle-toolkit) | 字幕工具箱：从视频出字幕、润色识别错误（时间轴一帧不动）、翻译成英文等语言、生成双语字幕或直接写进 Arctime 工程 |
 | [short-video-writer](plugins/short-video-writer) | 短视频写手：围绕前 3 秒钩子、完播率、情绪和反差写口播稿；写视频号、抖音、小红书、B 站、YouTube 的发布文案；避开一眼 AI 的句式 |
 | [selfmedia-video](plugins/selfmedia-video) | 口播自媒体视频：把手机自拍口播做成可发布的竖屏短视频——删句方案 → FCPXML 粗剪 → HyperFrames 包装（人脸跟随画中画、真实信源中文重做、字幕避开嘴巴、BGM）→ 发布文案与 3:4 封面 |
+| [chapter-bar](plugins/chapter-bar) | 章节进度条：AI 读字幕或看画面划分章节，给讲解/教学视频加章节条，顺带导出 YouTube 章节 |
+| [mv-accents](plugins/mv-accents) | 演奏视频的音乐特效：分析节拍和段落强弱，AI 设计跟着音乐走的边框律动、闪光粒子、飘音符、歌名卡，也能写全新效果 |
 
 ## 安装
 
@@ -28,6 +30,8 @@
 /plugin install subtitle-toolkit@creator-skills
 /plugin install short-video-writer@creator-skills
 /plugin install selfmedia-video@creator-skills
+/plugin install chapter-bar@creator-skills
+/plugin install mv-accents@creator-skills
 ```
 
 以后更新：`/plugin marketplace update creator-skills`
@@ -44,6 +48,8 @@
 - 「帮我写一条讲 AI 省钱技巧的口播稿，60 秒」
 - 「这条视频要发抖音和小红书了，配个文案」
 - 「把 `口播0312.mov` 做成一条自媒体视频，先给我删句方案」
+- 「这条讲解视频加个章节进度条」
+- 「给这条弹琴视频加点跟节奏的特效」
 
 ## 一些设计
 

@@ -5,7 +5,7 @@
     "url": "https://github.com/shisaq"
   },
   "metadata": {
-    "description": "给内容创作者的 Claude Code 技能：会议切片、字幕、短视频写作、口播视频包装。"
+    "description": "给内容创作者的 Claude Code 技能：会议切片、字幕、短视频写作、口播视频包装、章节进度条、演奏视频特效。"
   },
   "plugins": [
     {
@@ -27,6 +27,16 @@
       "name": "selfmedia-video",
       "source": "./plugins/selfmedia-video",
       "description": "口播自媒体视频：逐字转写 → 删句方案 → FCPXML 粗剪 → HyperFrames 包装（人脸跟随画中画、真实信源中文重做、字幕避嘴、BGM）→ 发布文案与 3:4 封面。"
+    },
+    {
+      "name": "chapter-bar",
+      "source": "./plugins/chapter-bar",
+      "description": "章节进度条：AI 看内容划分章节，给讲解/教学视频加章节条（可选换章大字卡），导出 YouTube 章节。"
+    },
+    {
+      "name": "mv-accents",
+      "source": "./plugins/mv-accents",
+      "description": "演奏视频的音乐特效：节拍分析 + AI 按段落设计的边框律动、闪光粒子、飘音符、歌名卡，也能写全新效果。"
     }
   ]
 }
